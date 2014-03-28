@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="This is the the first form you see once you start the program, this allows you to first pick the music you'll want to occupy the player&#xD;&#xA;">
+    <Position X="1.052" Y="4.542" Height="1.167" Width="2.94" />
+  </Comment>
+  <Comment CommentText="The main form which after first setting up, you will then see. A TagEditor allows you to edit the tags of individual songs here">
+    <Position X="5.562" Y="4.719" Height="1.167" Width="2.94" />
+  </Comment>
+  <Comment CommentText="TagHandling class allows you to easily get the various tags for songs">
+    <Position X="7.021" Y="0.5" Height="0.583" Width="2.94" />
+  </Comment>
+  <Class Name="MusicPlayer.InitialMusicPicking">
+    <Position X="1" Y="3" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="MusicPlayer.InitialMusicPicking.ListViewItemComparer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>InitialMusicPicking.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACASABAIAACAAAACAAAwEIAGAHAEAYAwCAA=</HashCode>
+      <FileName>InitialMusicPicking.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MusicPlayer.MainForm" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>DADAA0CQIDAACJAMCICAUIDiE+A4qAJGUFAMA4ABFAA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TagHandling" />
+      <Property Name="TagEditor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MusicPlayer.TagEditor" Collapsed="true">
+    <Position X="6.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEAAgAACAQghBICACAgBACAAAaIAAIAOAQAIBCIAA=</HashCode>
+      <FileName>TagEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicPlayer.Program" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAABIAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="InitialMusicPicking" />
+      <Property Name="MainForm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MusicPlayer.Classes.TagHandling" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgAAAgAAAAIAAAAAAAAAAAAAAAAEAAAAAAAAAAoCA=</HashCode>
+      <FileName>Classes\TagHandling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
